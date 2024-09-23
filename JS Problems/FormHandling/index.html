@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling</title>
+</head>
+<style>
+    form{
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 300px;
+    }
+    input{
+        outline: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .input-div{
+        margin-bottom: 15px;
+    }
+    button{
+    border: 1px solid black;
+    padding: 8px;
+    width: 80px;
+    border-radius:5px ;
+    }
+</style>
+<body>
+    <h1>Form</h1>
+    <Form >
+        <div class="input-div">
+            <input type="text" name="name" placeholder="name">
+        </div>
+        <div class="input-div">
+            <input type="text" name="email" placeholder="email">
+        </div>
+         <div class="input-div">
+            <input type="password" name="password" placeholder="password">
+        </div>
+        <button type="submit">Submit</button>
+    </Form>
+    <script src="script.js"></script>
+</body>
+</html>
