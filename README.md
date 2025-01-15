@@ -1,2 +1,2 @@
 # JavaScript
-For Practice &amp; learn
+For JavaScript Practice &amp; learning
